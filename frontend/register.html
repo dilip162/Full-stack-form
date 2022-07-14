@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/frontend/register.css">
+    <script src="/frontend/register.js"></script>
+
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <div class="form_container">
+            <form name="myform" method="post">
+
+                <div class="box">
+                    Name:<input type="text" name="fname">
+                </div>
+
+                <div class="box">
+                    Email:<input type="email" name="femail">
+                </div>
+
+                <div class="box">
+                    Phone:<input type="tel" name="fphone">
+                </div>
+
+                <div class="box">
+                    Address:<input type="text" name="faddress">
+                </div>
+
+
+                <div class="box">
+                    Department:<input type="text" name="fdepartment">
+                </div>
+
+                <div class="box">
+                    Password:<input type="password" name="fpassword">
+                </div>
+
+                <button type="reset" class="btn btn_reset">Cancel</button>
+                <button type="button" class="btn btn_submit" onclick="validateForm();">Submit now</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

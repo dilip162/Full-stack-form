@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container {
+    background-color: rgb(237, 230, 230);
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+    margin: 1rem auto;
+    padding: 2rem;
+    opacity: 0.8;
+
+}
+
+
+.box {
+    margin: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+input {
+    margin: 0.4rem 1rem;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.2rem;
+    outline: none;
+    font-size: 1rem;
+    outline: none;
+}
+
+.btn {
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    border: none;
+    margin: 0 0.3rem;
+    color: white;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.btn_submit {
+    background-color: rgb(20, 179, 20);
+}
+
+.btn_reset {
+    background-color: rgb(225, 51, 51);
+}

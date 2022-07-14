@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login_container {
+    max-width: 40vw;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    background: whitesmoke
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.box {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+
+}
+
+.box input {
+    font-weight: 600;
+    padding: 0.2rem 0.2rem;
+    width: 60%;
+    font-size: 1rem;
+}
+
+.login_btn {
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 0.4rem 2.5rem;
+    font-size: 1.05rem;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: rgb(214, 209, 209);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.btn:hover {
+    background-color: rgb(230, 221, 221);
+}
